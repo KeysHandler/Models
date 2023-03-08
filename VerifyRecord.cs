@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace KeysHandler.Models;
 
-namespace KeysHandler.Models
+public class VerifyRecord
 {
-    public class VerifyRecord
-    {
-        public List<string> Names { get; set; }
+    public List<string>? Names { get; set; }
 
-        public List<string> E_Mails { get; set; }
+    public List<string>? EMails { get; set; }
 
-        public List<string> PhoneNumbers { get; set; }
-    }
+    public List<string>? PhoneNumbers { get; set; }
 }
